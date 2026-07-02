@@ -42,10 +42,9 @@ export default function TrustedBy() {
   return (
     <section className="overflow-hidden bg-white/90 py-10 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="mb-8 text-center text-sm font-semibold uppercase tracking-[0.25em] text-gray-500 sm:mb-10 sm:text-xl">
+        <p className="mb-8 text-center  font-bold uppercase tracking  sm:mb-10 sm:text-3xl">
           Trusted By
         </p>
-
         <div className="relative overflow-hidden">
           <div className="flex w-max animate-marquee gap-8 sm:gap-12 lg:gap-16">
             {[...logos, ...logos].map((item, index) => (
